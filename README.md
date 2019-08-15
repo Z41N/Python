@@ -13,4 +13,4 @@ Thanks for the visit, and I wish everyone the absolute best!!
 
 Zain
 
-P.S. - My resume and cover letter are in the documents section - feel free to look ;)
+P.S. - My resume and cover letter are in the documents section - feel free to take a look ;)
