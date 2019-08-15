@@ -1,4 +1,4 @@
-# pythonzs
+# PythonZS - Who's "Zain" and Why Should I Care?
 Hey everyone! 
 Here's a glimpse into all of the beginner-level projects I am working on using Python. 
 
