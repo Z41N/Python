@@ -1,6 +1,6 @@
 """
 -------------------------------------------------------------------------------
-ZA1N's TIC-TAC-TOE (IN PROCESS AS OF 4/17/20)
+ZA1N's TIC-TAC-TOE
 1.) Create the board
 2.) Display the board
 3.) Handle turn
@@ -52,7 +52,9 @@ def win_checker():
     global is_game_on
     if board[0] == board[1] == board[2] != "-":
         print(board[0] + " won!")
-        is_game_on = False
+        return True
+    else:
+        return False
 
 
 # Checking for tie
@@ -67,9 +69,12 @@ def start_game():
     display_board()
     while is_game_on:
         handle_turn_x()
-        win_checker()
+        if win_checker():
+            break
         tie_checker()
         handle_turn_o()
+        if win_checker():
+            break
 
 
 start_game()
