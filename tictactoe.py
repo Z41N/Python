@@ -24,7 +24,7 @@ def display_board():
     print(board[6] + " | " + board[7] + " | " + board[8])
 
 
-# Grab the user's choice and check integer
+# Grab the user's choice and check integer (REPLACED WITH DOUBLE WHILE LOOP IN PLAYER METHODS)
 
 # def input_number(message):
 #     while True:
