@@ -10,3 +10,4 @@ Not just with syntax, functions, classes, and all these fundamentals but also on
 Visit my website for some more info about me: www.ZainSheraz.com
 
 Feedback and criticism is strongly welcomed :)
+
