@@ -91,3 +91,4 @@ def join_rfm(x): return str(x['R']) + str(x['F']) + str(x['M'])
 data_process['RFM_Segment_Concat'] = data_process.apply(join_rfm, axis=1)
 rfm = data_process
 rfm.head()
+
