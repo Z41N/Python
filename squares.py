@@ -22,7 +22,7 @@ print(square3)
 #print(digits)
 #print(min(digits))
 #print(max(digits))
-#print(sum(digits))
+#print(sum(digits)) 
 
 squares4 = [value4**2 for value4 in range(2,200)]
 print(squares4)
