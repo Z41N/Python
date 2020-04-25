@@ -22,3 +22,4 @@ def hanoi(n, f, h, t):
 
 hanoi(4, "A", "B", "C")
 #     HOWEVER MANY DISCS AS FIRST ARG.
+# Hm. Still in the works, not satisfied.
