@@ -13,3 +13,4 @@ def twoNumberSum(array, targetSum):
 		elif combinedSum > targetSum:
 			right -= 1
 	return []
+ 
