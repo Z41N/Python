@@ -28,3 +28,4 @@ print("\nGPOR PRICE:")
 while True:
     get_latest_gpor_price()
     time.sleep(5)
+ 
