@@ -15,7 +15,7 @@ def get_latest_gpor_price():
     querystring = {"symbol": "GPOR", "function": "GLOBAL_QUOTE"}
     headers = {
         'x-rapidapi-host': "alpha-vantage.p.rapidapi.com",
-        'x-rapidapi-key': "fe6b9725fbmsh571c9148916019cp1b03aejsn7725753b3bfd"
+        'x-rapidapi-key': "YOURKEYNOTMINE"
     }
     response = requests.request("GET", GPOR_API_URL, headers=headers, params=querystring)
     response_json = response.json()
